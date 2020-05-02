@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="白学rl">
   <meta name="keywords" content="">
-  <title>“运用hexo写博客” - 白学rl BLOG</title>
+  <title>标签 - hexo - 白学rl BLOG</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
@@ -46,7 +46,7 @@
 
 
 <body>
-  <header style="height: 70vh;">
+  <header style="height: 80vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -119,7 +119,7 @@
 </nav>
 
     <div class="view intro-2" id="background" parallax=true
-         style="background: url('/img/%E8%83%8C%E6%99%AF.jpg') no-repeat center center;
+         style="background: url('/img/%E8%83%8C%E6%99%AF4.png') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -128,38 +128,6 @@
               
             </span>
 
-            
-              
-                <div class="mt-3 post-meta">
-                  <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-                  <time datetime="2020-04-29 11:14">
-                    2020年4月29日 上午
-                  </time>
-                </div>
-              
-
-              <div class="mt-1">
-                
-                  
-                  <span class="post-meta mr-2">
-                    <i class="iconfont icon-chart"></i>
-                    333 字
-                  </span>
-                
-
-                
-                  
-                  <span class="post-meta mr-2">
-                      <i class="iconfont icon-clock-fill"></i>
-                    
-                    
-                    3
-                     分钟
-                  </span>
-                
-
-                
-              </div>
             
           </div>
 
@@ -171,104 +139,37 @@
 
   <main>
     
+      <div class="container nopadding-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<div class="list-group">
+<!--  <p class="h4">共计 1 篇文章</p>-->
+  <hr>
+  
+    
       
+      <p class="h5">2020</p>
+    
+    <a href="/2020/04/29/%E2%80%9C%E8%BF%90%E7%94%A8hexo%E5%86%99%E5%8D%9A%E5%AE%A2%E2%80%9D/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">“运用hexo写博客”</span>
+      <span style="float: right;">04-29</span>
+    </a>
+  
+</div>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="d-none d-lg-block col-lg-2"></div>
-    <div class="col-lg-8 nopadding-md">
-      <div class="container nopadding-md" id="board-ctn">
-        <div class="py-5" id="board">
-          <div class="post-content mx-auto" id="post">
-            
-            <article class="markdown-body">
-              <h2 id="初始设置"><a href="#初始设置" class="headerlink" title="初始设置"></a>初始设置</h2><a id="more"></a>
-<p>先在blog的根目录写一个</p>
-<p>hexo new “写入你的文章标题”</p>
-<p>在下面的提示中找到这个文章的所在，用visual打开</p>
-<h2 id="运用markdown写博客"><a href="#运用markdown写博客" class="headerlink" title="运用markdown写博客"></a>运用markdown写博客</h2><p>按住 shift+ctrl+p 打开侧边预览</p>
-<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>markdown一共支持六级标题，在标题前加#号，一级标题一个#号（#和内容前面都需要加一个空格）</p>
-<h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><p>保留一行空格即可（这是第一段）</p>
-<p>保留一行空格即可（这是第二段)</p>
-<h3 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h3><p>如果我们需要对一段内容进行强调显示时，Markdown提供了一个特殊符号&gt;(&gt;和内容之前需要空一个空格)用于段落区块引用：</p>
-<blockquote>
-<p>这是一段引用段落，将会被高亮显示</p>
-<blockquote>
-<p>打两个还能实现嵌套（支持多个嵌套）</p>
-</blockquote>
-</blockquote>
-<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><p><a href="http://www.baidu.com" target="_blank" rel="noopener" title="超链接title">超链接显示文字</a></p>
-<p>超链接title为浮动提示文字，一般情况可以不填写</p>
-<h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p><img src="https://www.baidu.com/img/bd_logo1.png?where=super" srcset="/img/loading.gif" alt="百度logo"></p>
-<p>图片和超链接的唯一区别就是在最前方添加一个感叹号<br>后面只需要使用括号将网址括起来，前面的提示词要用[]<br>括起来。</p>
-<h3 id="无序，有序列表"><a href="#无序，有序列表" class="headerlink" title="无序，有序列表"></a>无序，有序列表</h3><p>无序：使用*号加在最前面</p>
-<p>有序：只需要数字加.即可</p>
-<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>只需要连续的三个*或者-</p>
-<hr>
 
-            </article>
-            <hr>
-            <div>
-              <div class="post-metas mb-3">
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
-                    
-                  </div>
-                
+
               </div>
-              
-                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
-              
-              
-                <div class="post-prevnext row">
-                  <div class="post-prev col-6">
-                    
-                    
-                      <a href="/2020/05/02/%E4%BC%81%E5%88%92/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">企划</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
-                  </div>
-                  <div class="post-next col-6">
-                    
-                    
-                      <a href="/2020/04/27/%E7%AC%AC%E4%B8%80%E7%AF%87Blog/">
-                        <span class="hidden-mobile">第一篇Blog</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
-                    
-                  </div>
-                </div>
-              
             </div>
-
-            
           </div>
         </div>
       </div>
-    </div>
-    
-      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
-        <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
-  <div id="tocbot"></div>
-</div>
-
-      </div>
-    
-  </div>
-</div>
-
-<!-- Custom -->
-
-
     
   </main>
 
@@ -332,34 +233,6 @@
 
 
 
-  
-  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
-  <script>
-    $(document).ready(function () {
-      var boardCtn = $('#board-ctn');
-      var boardTop = boardCtn.offset().top;
-
-      tocbot.init({
-        tocSelector: '#tocbot',
-        contentSelector: '.post-content',
-        headingSelector: 'h1,h2,h3,h4,h5,h6',
-        linkClass: 'tocbot-link',
-        activeLinkClass: 'tocbot-active-link',
-        listClass: 'tocbot-list',
-        isCollapsedClass: 'tocbot-is-collapsed',
-        collapsibleClass: 'tocbot-is-collapsible',
-        collapseDepth: 0,
-        scrollSmooth: true,
-        headingsOffset: -boardTop
-      });
-      if ($('.toc-list-item').length > 0) {
-        $('#toc').css('visibility', 'visible');
-      }
-    });
-  </script>
-
-
-
 
 
   <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
@@ -379,7 +252,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "“运用hexo写博客”&nbsp;",
+        "标签 - hexo&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -422,20 +295,6 @@
   </script>
 
 
-
-  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
-
-  <script>
-    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
-      function () {
-        var element = document.createElement('a');
-        $(element).attr('data-fancybox', 'images');
-        $(element).attr('href', $(this).attr('src'));
-        $(this).wrap(element);
-      }
-    );
-  </script>
 
 
 
